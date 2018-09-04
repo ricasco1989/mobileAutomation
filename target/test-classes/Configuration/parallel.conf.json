@@ -1,0 +1,22 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "eldercerrato3",
+  "key": "kTN3uKCew9NSNqk5AdBh",
+
+  "capabilities": {
+    "browserstack.debug": true,
+    "project": "Calvert",
+    "browserstack.video":"true", 
+    "app":"bs://7035f1127ff77e6129704661f0aedea2956b7875",
+    "realMobile": "true"
+  },
+
+  "environments": 
+  {
+    "chrome": {
+      "browserName": "android",
+      "os_version": "7.0",
+      "device": "Samsung Galaxy S8"    
+    } 		
+ 	}
+}

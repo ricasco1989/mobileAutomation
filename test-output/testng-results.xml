@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel" duration-ms="109116" started-at="2018-09-04T20:29:00Z" finished-at="2018-09-04T20:30:49Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="109116" started-at="2018-09-04T20:29:00Z" finished-at="2018-09-04T20:30:49Z">
+      <class name="demo.StartChrome">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:demo.StartChrome@b2c9a9c]" name="setUp" is-config="true" duration-ms="12599" started-at="2018-09-04T20:29:00Z" finished-at="2018-09-04T20:29:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[single.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Signin()[pri:0, instance:demo.StartChrome@b2c9a9c]" name="Signin" duration-ms="95426" started-at="2018-09-04T20:29:12Z" finished-at="2018-09-04T20:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:demo.StartChrome@b2c9a9c]" name="tearDown" is-config="true" duration-ms="1060" started-at="2018-09-04T20:30:48Z" finished-at="2018-09-04T20:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demo.StartChrome -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Parallel -->
+</testng-results>

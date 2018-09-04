@@ -1,0 +1,26 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "eldercerrato3",
+  "key": "kTN3uKCew9NSNqk5AdBh",
+  "BrowserStack":null,
+
+  "capabilities": {
+    "browserstack.debug": true,
+    "project": "Calvert",
+    "browserstack.video":"true", 
+    "app":"https://www.dropbox.com/s/ljs4bgxxzgtp2c2/Evernote.apk?dl=0",
+    "realMobile": "true"
+  },
+
+  "environments": 
+  {
+    "chrome": {
+      "browserName": "android",
+      "os_version": "7.0",
+      "device": "Samsung Galaxy S8",    
+      "deviceName":"Samsung Galaxy S8",
+      "platformName": "Android",
+      "platformVersion": "7.0"
+    } 		
+ 	}
+}
